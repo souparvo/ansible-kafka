@@ -31,6 +31,8 @@ The below zookeeper role from Ansible Galaxy can be used if one is needed.
 ## Role Variables
 
     kafka_version: 2.3.0
+    # URL is built with [kafka_url]/[kafka_version]/kafka_[kafka_scala_version]-[kafka_version].tgz
+    kafka_url: http://www-eu.apache.org/dist/kafka
     kafka_scala_version: 2.12
     kafka_root_dir: /opt
     kafka_dir: '{{ kafka_root_dir }}/kafka'
