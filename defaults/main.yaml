@@ -3,6 +3,9 @@
 kafka_version: 2.3.0
 kafka_scala_version: 2.12
 
+# Kafka URL
+kafka_url: http://www-eu.apache.org/dist/kafka
+
 # The kafka user and group to create files/dirs with and for running the kafka service
 kafka_user: kafka
 kafka_group: kafka
